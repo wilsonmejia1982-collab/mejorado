@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi App</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      background: #c18282;
+      margin: 0;
+    }
+    .container {
+      padding: 20px;
+    }
+    button {
+      padding: 15px;
+      font-size: 17px;
+      border: none;
+      background: #007bff;
+      color: white;
+      border-radius: 10px;
+    }
+    
+
+
+
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Mi Primera PROGRAMA </h1>
+    <p id="mensaje">Hola WILSON👋</p>
+    <button onclick="cambiarTexto()">Presióname</button>
+    <p id="mensaje">Hola WILSON👋</p>
+    <button onclick="cambiarTexto2()">MESA 1</button><br><br>
+    <input type="text" id="miTexto" placeholder="Escribe aquí">
+  </div>
+
+  <script>
+    function cambiarTexto() {
+      document.getElementById("mensaje").innerText = "¡Funciona en tu celular! 🚀";
+    }
+function cambiarTexto2() {
+      document.getElementById("mensaje").innerText = "text";
+    }
+
+
+
+  </script>
+
+</body>
+</html>
